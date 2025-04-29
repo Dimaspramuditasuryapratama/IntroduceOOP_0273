@@ -9,7 +9,7 @@ using namespace std;
     float nilai;
 
 
-    void print_date(){
+    void print_data(){
     cout << "NIM = " << nim << endl;
     cout << "NAMA = " << nama << endl;
     cout << "NILAI = " << nilai << endl;
@@ -18,5 +18,10 @@ using namespace std;
 
 
 int main(){
+    mahasiswa mhs;
+    mhs.nim = 0273;
+    mhs.nama = "Dimas";
+    mhs.nilai = 50;
 
+    mhs.print_data();
 }
